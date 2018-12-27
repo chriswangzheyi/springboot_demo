@@ -1,9 +1,7 @@
-package com.wzy.springboot_demo;
+package com.wzy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 /*IDE中调试用*/
 

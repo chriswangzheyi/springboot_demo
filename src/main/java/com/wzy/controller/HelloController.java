@@ -1,4 +1,4 @@
-package com.wzy.springboot_demo.web.controller;
+package com.wzy.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

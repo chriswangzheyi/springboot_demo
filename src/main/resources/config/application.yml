@@ -1,10 +1,7 @@
 server:
   port: 8080
 
-logging:
-  file: logs/log.log
-  level:
-    root: warn
+
 
 
 
