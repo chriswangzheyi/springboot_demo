@@ -17,4 +17,14 @@ public class TestServiceImpl implements TestService {
     public List<Test> findAll() {
         return testDao.findAll();
     }
+
+    @Override
+    public Test findById(String objectid) {
+        return testDao.findById(objectid);
+    }
+
+    @Override
+    public void save(Test test) {
+        testDao.saveTest(test);
+    }
 }

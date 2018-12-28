@@ -7,4 +7,9 @@ import java.util.List;
 public interface TestDao {
     List<Test> findAll();
 
+    Test findById(String objectid);
+
+    void saveTest(Test test);
+
+
 }

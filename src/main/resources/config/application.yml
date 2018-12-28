@@ -4,4 +4,7 @@ server:
 spring:
   data:
     mongodb:
-      url: mongodb://54.249.79.156:27017/admin
+      database: admin
+      host: 54.249.79.156:27017
+
+
