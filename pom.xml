@@ -32,6 +32,17 @@
             <scope>test</scope>
         </dependency>
 
+        <!--MongoDB相关依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongo-java-driver</artifactId>
+        </dependency>
+
+
         <!--因配置外部TOMCAT 而配置-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -39,6 +50,9 @@
         </dependency>
 
     </dependencies>
+
+
+
 
 
 
