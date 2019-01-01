@@ -3,6 +3,8 @@ package com.wzy.service;
 import com.wzy.dao.TestDao;
 import com.wzy.model.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -26,5 +28,15 @@ public class TestServiceImpl implements TestService {
     @Override
     public void save(Test test) {
         testDao.saveTest(test);
+    }
+
+    @Override
+    public void delete(Query query) {
+        testDao.deleteBy(query);
+    }
+
+    @Override
+    public void update(Query query, Update update) {
+        testDao.updateBy(query, update);
     }
 }
