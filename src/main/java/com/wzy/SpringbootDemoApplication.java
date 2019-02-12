@@ -2,16 +2,18 @@ package com.wzy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 /*IDE中调试用*/
 
-@SpringBootApplication
+/*@SpringBootApplication
 public class SpringbootDemoApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringbootDemoApplication.class, args);
     }
-}
+}*/
 
 
 
@@ -19,9 +21,9 @@ public class SpringbootDemoApplication {
 
 /*打包用*/
 
-/*
+
 @SpringBootApplication
-public class SpringbootDemoApplication extends SpringBootServletInitializer{
+public class SpringbootDemoApplication extends SpringBootServletInitializer {
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
         return builder.sources(SpringbootDemoApplication.class);
@@ -33,4 +35,4 @@ public class SpringbootDemoApplication extends SpringBootServletInitializer{
     }
 }
 
-*/
+
